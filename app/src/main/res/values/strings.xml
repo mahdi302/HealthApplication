@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HealthApplication</string>
+    <string name="foot">قدم</string>
+    <string name="chart_title">نمودار تعداد قدم های هفتگی</string>
+    <string name="weekly_history">تاریخچه هفتگی</string>
+    <string name="average_move">میانگین مسافت روزانه</string>
+    <string name="kilometer">  کیلومتر</string>
+    <string name="goal">هدف</string>
+    <string name="daily_goal">هدف روزانه</string>
+    <string name="step"> قدم </string>
+    <string name="suggestions">توصیه ها</string>
+    <string name="monthly">ماهانه</string>
+    <string name="weekly">هفتگی</string>
+    <string name="daily">روزانه</string>
+</resources>

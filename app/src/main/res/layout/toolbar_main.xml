@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40.0dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="30.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginRight="8.0dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_down_arrow"
+        android:layout_centerVertical="true" />
+
+    <com.test.healthapplication.customView.TextViewIranYekan
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/foot"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_centerInParent="true"/>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginLeft="8.0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_share" />
+
+</RelativeLayout>
