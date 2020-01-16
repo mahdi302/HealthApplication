@@ -78,15 +78,9 @@ class MainActivity : AppCompatActivity() {
             }
 
             private fun updateDateSteps(currentXAxis: Int) {
-                val zero = 0;
-                val one = 1;
-                val two = 2;
-                val three = 3;
-                val four = 4;
-                val five = 5;
-                val six = 6
+
                 when (currentXAxis) {
-                    zero -> {
+                    0 -> {
                         txt_date.text =
                             NumberTranslator.toPersian("14") + " تیر _ " + NumberTranslator.toPersian(
                                 "7"
@@ -94,7 +88,7 @@ class MainActivity : AppCompatActivity() {
                         txt_steps.text = NumberTranslator.toPersian("2000") + " قدم"
 
                     }
-                    one -> {
+                    1 -> {
                         txt_date.text =
                             NumberTranslator.toPersian("21") + " تیر _ " + NumberTranslator.toPersian(
                                 "14"
@@ -103,7 +97,7 @@ class MainActivity : AppCompatActivity() {
                         txt_steps.text = NumberTranslator.toPersian("1600") + " قدم"
 
                     }
-                    two -> {
+                    2 -> {
                         txt_date.text =
                             NumberTranslator.toPersian("21") + " تیر _ " + NumberTranslator.toPersian(
                                 "28"
@@ -112,7 +106,7 @@ class MainActivity : AppCompatActivity() {
                         txt_steps.text = NumberTranslator.toPersian("2300") + " قدم"
 
                     }
-                    three -> {
+                    3 -> {
                         txt_date.text =
                             NumberTranslator.toPersian("28") + " تیر _ " + NumberTranslator.toPersian(
                                 "4"
@@ -121,7 +115,7 @@ class MainActivity : AppCompatActivity() {
                         txt_steps.text = NumberTranslator.toPersian("1800") + " قدم"
 
                     }
-                    four -> {
+                    4 -> {
                         txt_date.text =
                             NumberTranslator.toPersian("4") + " مرداد _ " + NumberTranslator.toPersian(
                                 "10"
@@ -129,7 +123,7 @@ class MainActivity : AppCompatActivity() {
                         txt_steps.text = NumberTranslator.toPersian("800") + " قدم"
 
                     }
-                    five -> {
+                    5 -> {
                         txt_date.text =
                             NumberTranslator.toPersian("10") + " مرداد _ " + NumberTranslator.toPersian(
                                 "16"
@@ -137,7 +131,7 @@ class MainActivity : AppCompatActivity() {
                         txt_steps.text = NumberTranslator.toPersian("2600") + " قدم"
 
                     }
-                    six -> {
+                    6 -> {
                         txt_date.text =
                             NumberTranslator.toPersian("16") + " مرداد _ " + NumberTranslator.toPersian(
                                 "22"
